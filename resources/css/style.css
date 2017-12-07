@@ -32,6 +32,7 @@ header {
 body {
 	margin: 0px 0px;
 	background-color: black;
+
 }
 
 .main_container{
@@ -39,8 +40,9 @@ body {
 	color: seashell;
 	display: flex;
 	height: 700px;
-	width: 100%;
-	background-image: url(/resources/images/img-mission-background.jpg);
+	width: 100%; 
+	background-image: url(../images/img-mission-background.jpg);
+	background-size:100%;
 
 }
 
@@ -70,11 +72,21 @@ body {
 }
 
 .locations_container{
-	disply: flex;
-	height: 400px;
+	display: flex;
+	height: 500px;
 	justify-content: center;
-	background-image: url(/resources/images/img-locations-background.jpg);
+	background-image: url(../images/img-locations-background.jpg);
 	background-size: 100%;
+}
+
+.location{
+	font-family: Helvetica;
+	color: seashell;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	margin: 40px;
+	background-color: black;
 }
 
 
