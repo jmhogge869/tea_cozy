@@ -5,6 +5,7 @@ html {
 	font-family: Helvitica;
 	font-size: 22px;
 	color: seashell;
+	opacity: .9;
 }
 
 /* fixed header and nav bar**/
@@ -69,14 +70,34 @@ body {
 	display: flex;
 	font-family: Helvetica;
 	color: seashell;
+	align-items: center;
 	justify-content: space-around;
 }
 
-.tea_labels h4 {
-	
-	margin-top: 10px;
-	padding-left: 10px;
-	
+#l1 {
+	margin-left: 65px;
+}
+
+#l3 {
+	margin-right: 65px;
+}
+
+#l4 {
+	margin-left:  65px;
+}
+
+#l5 {
+	margin-right: 55px;
+}
+.locations_outer_container{
+	display:flex;
+	width: 100%;
+	align-items: center;
+	background-image: url(../images/img-locations-background.jpg);
+	background-size: 100%;
+	flex-direction: column;
+	font-family: Helvetica;
+	opacity: 1;
 }
 .locations_container{
 	padding: 0px;
@@ -85,9 +106,8 @@ body {
 	height: 500px;
 	justify-content: center;
 	align-items: center;
-	background-image: url(../images/img-locations-background.jpg);
-	background-size: 100%;
 }
+
 
 .location{
 	font-family: Helvetica;
@@ -98,6 +118,7 @@ body {
 	margin: 40px;
 	background-color: black;
 }
+
 
 footer {
 	font-family: Helvetica;
