@@ -66,15 +66,25 @@ body {
 }
 
 .tea_labels{
-	text-align: center;
+	display: flex;
 	font-family: Helvetica;
 	color: seashell;
+	justify-content: space-around;
 }
 
+.tea_labels h4 {
+	
+	margin-top: 10px;
+	padding-left: 10px;
+	
+}
 .locations_container{
+	padding: 0px;
+	margin: 0px;
 	display: flex;
 	height: 500px;
 	justify-content: center;
+	align-items: center;
 	background-image: url(../images/img-locations-background.jpg);
 	background-size: 100%;
 }
@@ -87,6 +97,20 @@ body {
 	text-align: center;
 	margin: 40px;
 	background-color: black;
+}
+
+footer {
+	font-family: Helvetica;
+	color: seashell;
+	background-color: black;
+}
+
+.contact{
+  text-align: center;
+}
+
+.copyright{
+	text-align: left;
 }
 
 
